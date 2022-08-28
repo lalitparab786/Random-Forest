@@ -1,4 +1,4 @@
-# Random-Forest[Multi-classification ] Classifier
+# Random-Forest Classifier
 **Random Forest is a supervised machine learning algorithm which is based on ensemble learning. In this kernel, I build Random Forest multiclass-Classifier model to predict what kind of salary should person have. I have demonstrated the feature selection process using the Random Forest model to find only the important features, rebuild the model using these features and see its effect on accuracy. I have used the HR-Dataset for this project.**
 
 __Table of Contents__
