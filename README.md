@@ -1,5 +1,5 @@
 # Random-Forest Classifier
-**Random Forest is a supervised machine learning algorithm which is based on ensemble learning. In this kernel, I build Random Forest multiclass-Classifier model to predict what kind of salary should person have. I have demonstrated the feature selection process using the Random Forest model to find only the important features, rebuild the model using these features and see its effect on accuracy. I have used the HR-Dataset for this project.**
+**Random Forest is a supervised machine learning algorithm which is based on ensemble learning called Bagging. In this kernel, I build Random Forest Classifier model to predict Empolyee quit/not quit the company. I have also demonstrated the feature selection process using the Random Forest model to find only the important features,which have impact on accuracy. I have used the HR-Dataset for this project.**
 
 __Table of Contents__
 
@@ -37,18 +37,16 @@ Disadvantages:-
 
 4.__The problem statement__
 
-In this kernel, I try to make predictions where the prediction task is to determine whether what kind of salary should person have. I implement Random Forest Classification with Python and Scikit-Learn. So, to answer the question, I build a Random Forest classifier to
-predict what kind of salary should person have.
+In this kernel, I try to make predictions where the prediction task is to determine whether Employee quit the company or not quit the company. I implement Random Forest Classification with Python and Scikit-Learn. So, to answer the query.
 
-I have used the HR-Salary classification data set for this project.
 
 5.__Feature selection with Random Forests__
 
 Random forests algorithm can be used for feature selection process. This algorithm can be used to rank the importance of variables in a regression or classification problem.
 
-We measure the variable importance in a dataset by fitting the random forest algorithm to the data. During the fitting process
+We measure the variable importance in a dataset by fitting the random forest algorithm to the data.
 
-Features which produce large values for this score are ranked as more important than features which produce small values. Based on this score, we will choose the most important features and drop the least important ones for model building.
+Features which produce large values for this score are ranked as more important than features which produce small values. Based on this score, we can also choose the most important features and drop the least important ones for model Accuracy.
 
 6.__Difference between Random Forests and Decision Trees__
 
