@@ -1,6 +1,8 @@
 # Random-Forest Classifier
 **Random Forest is a supervised machine learning algorithm which is based on ensemble learning called Bagging. In this kernel, I build Random Forest Classifier model to predict Empolyee quit/not quit the company. I have also demonstrated the feature selection process using the Random Forest model to find only the important features,which have impact on accuracy. I have used the HR-Dataset for this project.**
 
+               PROJECT TITLE : Predicting which of your Employee will Quit the Company or Not Quit the Company.
+
 __Table of Contents__
 
 1.__Introduction to Random Forest algorithm__
