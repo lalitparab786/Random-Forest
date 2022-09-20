@@ -21,7 +21,10 @@ Random forest algorithm combines multiple decision-trees, resulting in a forest 
 
 Every decision tree has high variance, but when we combine all of them together in parallel then the resultant variance is low as each decision tree gets perfectly trained on that particular sample data, and hence the output doesn’t depend on one decision tree but on multiple decision trees. In the case of a classification problem, the final output is taken by using the majority voting classifier. In the case of a regression problem, the final output is the mean of all the outputs. This part is called Aggregation. 
 
+https://analyticsindiamag.com/guide-to-ensemble-methods-bagging-vs-boosting/
+
 Random Forest is an ensemble technique capable of performing both regression and classification tasks with the use of multiple decision trees and a technique called Bootstrap and Aggregation, commonly known as bagging.
+
 The basic idea behind this is to combine multiple decision trees in determining the final output rather than relying on individual decision trees. 
 
 
