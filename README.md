@@ -32,11 +32,29 @@ Random Forest is an ensemble technique capable of performing both regression and
 The basic idea behind this is to combine multiple decision trees in determining the final output rather than relying on individual decision trees. 
 
 
-4.__Advantages and disadvantages of Random Forest algorithm__
+4.__Difference between Random Forests and Decision Trees__
+
+.Random forests is a set of multiple decision-trees.
+
+.Decision-trees are computationally faster as compared to random forests.
+
+.Decision-trees may suffer from overfitting. Random forest prevents overfitting by creating trees on random forests.
+
+.Random forest is difficult to interpret. But, a decision-tree is easily interpretable and can be converted to rules.
+
+
+5.__The problem statement__
+
+In this kernel, I try to make predictions where the prediction task is to determine whether Employee quit the company or not quit the company. I implement Random Forest Classification with Python and Scikit-Learn. So, to answer the query.
+
+
+![employee img](https://user-images.githubusercontent.com/89013703/191906835-459507de-a216-4f1e-9627-d3fb902c04f3.jpg)
+
+
+
+6.__Advantages and disadvantages of Random Forest algorithm__
 
 Advantages:-
-
-.Random forest algorithm can be used to solve both classification and regression problems.
 
 .It is considered as very accurate and robust model because it uses large number of decision-trees to make predictions.
 
@@ -53,31 +71,6 @@ Disadvantages:-
 .Random forests is very slow in making predictions because large number of decision-trees are used to make predictions.All the trees in the forest have to make a prediction for the same input and then perform voting on it. So, it is a time-consuming process.
 
 .The model is difficult to interpret as compared to a decision-tree, where we can easily make a prediction as compared to a decision-tree.
-
-4.__The problem statement__
-
-In this kernel, I try to make predictions where the prediction task is to determine whether Employee quit the company or not quit the company. I implement Random Forest Classification with Python and Scikit-Learn. So, to answer the query.
-
-
-5.__Feature selection with Random Forests__
-
-Random forests algorithm can be used for feature selection process. This algorithm can be used to rank the importance of variables in a regression or classification problem.
-
-We measure the variable importance in a dataset by fitting the random forest algorithm to the data.
-
-Features which produce large values for this score are ranked as more important than features which produce small values. Based on this score, we can also choose the most important features and drop the least important ones for model Accuracy.
-
-6.__Difference between Random Forests and Decision Trees__
-
-I will compare random forests with decision-trees. Some salient features of comparison are as follows:-
-
-.Random forests is a set of multiple decision-trees.
-
-.Decision-trees are computationally faster as compared to random forests.
-
-.Deep decision-trees may suffer from overfitting. Random forest prevents overfitting by creating trees on random forests.
-
-.Random forest is difficult to interpret. But, a decision-tree is easily interpretable and can be converted to rules.
 
 
 7.__Important Hyperparameters__
@@ -97,6 +90,13 @@ Following hyperparameters increases the predictive power:
 5. min_samples_split = min number of data points placed in a node before the node is split
 
 
+8.__Feature selection with Random Forests__
+
+Random forests algorithm can be used for feature selection process. This algorithm can be used to rank the importance of variables in a regression or classification problem.
+
+We measure the variable importance in a dataset by fitting the random forest algorithm to the data.
+
+Features which produce large values for this score are ranked as more important than features which produce small values. Based on this score, we can also choose the most important features and drop the least important ones for model Accuracy.
 
 
 
